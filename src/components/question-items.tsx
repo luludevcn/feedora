@@ -10,4 +10,4 @@ export default function QuestionItems({ items, handleNewItem }: { items: Questio
             <li><div className="border-b" ><button className="cursor-pointer" onClick={handleNewItem}>add new item</button></div></li>
         </ul>
     )
-}
+} 

@@ -1,7 +1,7 @@
 export default function FormElement() {
     const elements = ['text', 'date', 'file', 'url', 'phone', 'email', 'number', 'boolean', 'select', 'radio', 'checkbox', 'textarea'];
     return (
-        <div className="flex p-5 w-full border-b justify-between">
+        <div className="flex p-5 w-full gap-2 border-b justify-between">
             {elements.map(type => elementRender(type))}
         </div>
     )
