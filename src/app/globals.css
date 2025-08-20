@@ -122,3 +122,25 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
+
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .transition-custom {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .bg-gradient-primary {
+    background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+}

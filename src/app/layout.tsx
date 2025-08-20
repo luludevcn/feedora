@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import siteConfig from "@/config/site";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -17,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`antialiased`}
+        className={`font-inter bg-gray-50 text-dark antialiased`}
       >
         <ThemeProvider
           attribute="class"
