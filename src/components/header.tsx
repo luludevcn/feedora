@@ -1,5 +1,7 @@
 'use client'
 
+import Link from "next/link"
+
 export default function Header() {
     return (
         <header id='navbar' className='fixed w-full bg-white/90 backdrop-blur-sm z-50 transition-all duration-300 shadow-sm'>
@@ -33,12 +35,13 @@ export default function Header() {
                     </nav>
                     {/* <!-- CTA Buttons --> */}
                     <div className='hidden md:flex items-center space-x-4'>
-                        <a href='javascript:void(0);' className='text-gray-700 hover:text-primary font-medium transition-colors'>
+                        {/* <Link href='/login' className='text-gray-700 hover:text-primary font-medium transition-colors'>
                             Login
-                        </a>
-                        <a href='javascript:void(0);' className='bg-primary hover:bg-primary/90 text-white px-5 py-2 rounded-lg font-medium transition-colors shadow-md hover:shadow-lg'>
+                        </Link> */}
+                        <Link href='/login' className='bg-primary hover:bg-primary/90 text-white px-5 py-2 rounded-lg font-medium transition-colors shadow-md hover:shadow-lg'>
                             Get Started Free
-                        </a>
+                        </Link>
+                        {/* <ModeToggle></ModeToggle> */}
                     </div>
                     {/* <!-- Mobile Menu Button --> */}
                     <div className='md:hidden flex items-center'>

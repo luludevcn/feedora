@@ -17,7 +17,7 @@ export default function Home() {
               </div>
               <h1 className='text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight mb-6 text-shadow'>
                 Gather insights
-                <span className='bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent'>
+                <span className='bg-gradient-to-r from-primary ml-2 to-secondary bg-clip-text text-transparent'>
                   like never before
                 </span>
               </h1>
