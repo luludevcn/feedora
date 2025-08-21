@@ -1,19 +1,18 @@
-'use client'
+import Footer from "@/components/footer"
+import Header from "@/components/header"
+import { LoginForm } from "@/components/login-form"
 
-export default function LoginPage() {
-  const doLogin = async () => {
-    console.log('submit');
-    const response = await fetch('/api/login', { method: 'POST', body: JSON.stringify({}), headers: { 'Content-Type': 'application/json' } }).then((res) => {
-      console.log(res);
-      return res;
-    });
-    if (response.ok) {
-      console.log(response.json())
-    } else {
-      alert('login failed')
-    }
-  }
+export default function Page() {
+
   return (
-    <></>
+    <>
+      <Header></Header>
+      <div className="flex w-full items-center justify-center my-10 p-6 md:p-10">
+        <div className="w-full max-w-sm">
+          <LoginForm />
+        </div>
+      </div>
+      <Footer></Footer>
+    </>
   )
 }

@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Header() {
     return (
-        <header id='navbar' className='fixed w-full bg-white/90 backdrop-blur-sm z-50 transition-all duration-300 shadow-sm'>
+        <header id='navbar' className='w-full bg-white/90 backdrop-blur-sm z-50 transition-all duration-300 shadow-sm'>
             <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex justify-between items-center h-16 md:h-20'>
                     {/* <!-- Logo --> */}
@@ -44,16 +44,16 @@ export default function Header() {
                         {/* <ModeToggle></ModeToggle> */}
                     </div>
                     {/* <!-- Mobile Menu Button --> */}
-                    <div className='md:hidden flex items-center'>
+                    {/* <div className='md:hidden flex items-center'>
                         <button id='mobile-menu-button' className='text-gray-700 hover:text-primary focus:outline-none'>
                             <i className='fas fa-bars text-xl'>
                             </i>
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             {/* <!-- Mobile Navigation --> */}
-            <div id='mobile-menu' className='hidden md:hidden bg-white border-t border-gray-100 shadow-lg'>
+            {/* <div id='mobile-menu' className='hidden md:hidden bg-white border-t border-gray-100 shadow-lg'>
                 <div className='container mx-auto px-4 py-3 space-y-3'>
                     <a href='javascript:void(0);' className='block py-2 text-gray-700 hover:text-primary font-medium transition-colors'>
                         Features
@@ -76,7 +76,7 @@ export default function Header() {
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </header>
     )
 }
