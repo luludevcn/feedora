@@ -1,14 +1,17 @@
-'use client'
-import { SessionProvider } from "next-auth/react";
+import AdminAside from "@/components/admin/admin-aside";
+import AdminHeader from "@/components/admin/admin-header";
 
 export default function AdminLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <SessionProvider >
+  return (<>
+    <AdminHeader></AdminHeader>
+    <div className="flex flex-1 pt-16">
+      <AdminAside></AdminAside>
       {children}
-    </SessionProvider>
+    </div>
+  </>
   );
 }
