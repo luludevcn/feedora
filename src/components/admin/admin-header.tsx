@@ -33,7 +33,7 @@ export default async function AdminHeader() {
                     <div className="hidden md:flex items-center relative">
                         <input
                             type="text"
-                            placeholder="搜索表单..."
+                            placeholder="search"
                             className="pl-10 pr-4 py-2 rounded-lg border border-gray-medium focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary w-64 text-sm"
                         />
                         <i className="fas fa-search absolute left-3 text-dark-light"> </i>
@@ -73,14 +73,14 @@ export default async function AdminHeader() {
                                 className="block px-4 py-2 text-sm text-dark hover:bg-gray-100"
                             >
                                 <i className="fas fa-user mr-2 text-dark-light"> </i>
-                                个人资料
+                                Profile
                             </a>
                             <a
                                 href="javascript:void(0);"
                                 className="block px-4 py-2 text-sm text-dark hover:bg-gray-100"
                             >
                                 <i className="fas fa-cog mr-2 text-dark-light"> </i>
-                                设置
+                                Settings
                             </a>
                             <div className="border-t border-gray-100 my-1"></div>
                             <a
@@ -88,7 +88,7 @@ export default async function AdminHeader() {
                                 className="block px-4 py-2 text-sm text-danger hover:bg-gray-100"
                             >
                                 <i className="fas fa-sign-out-alt mr-2"> </i>
-                                退出登录
+                                Sign Out
                             </a>
                         </div>
                     </div>
