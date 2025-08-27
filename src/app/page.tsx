@@ -22,7 +22,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className='text-lg md:text-xl text-gray-600 mb-8 max-w-lg'>
-                Create stunning surveys, collect real-time feedback, and turn insights into action with Feedora's powerful yet intuitive platform.
+                {`Create stunning surveys, collect real-time feedback, and turn insights into action with Feedora's powerful yet intuitive platform.`}
               </p>
               <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4'>
                 <a href='javascript:void(0);' className='bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 text-center'>
@@ -449,7 +449,7 @@ export default function Home() {
                 </i>
               </div>
               <p className='text-gray-600 mb-6 italic'>
-                "Feedora has completely transformed how we collect and act on customer feedback. The analytics tools give us insights we never had before."
+                {`"Feedora has completely transformed how we collect and act on customer feedback. The analytics tools give us insights we never had before."`}
               </p>
               <div className='flex items-center'>
                 <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/cca584a063cbe29e864107221890b540.png' alt='Sarah Johnson' className='w-12 h-12 rounded-full mr-4' />
@@ -478,7 +478,7 @@ export default function Home() {
                 </i>
               </div>
               <p className='text-gray-600 mb-6 italic'>
-                "The survey builder is incredibly intuitive, and we've seen a 40% increase in response rates since switching to Feedora. Highly recommended!"
+                {`"The survey builder is incredibly intuitive, and we've seen a 40% increase in response rates since switching to Feedora. Highly recommended!"`}
               </p>
               <div className='flex items-center'>
                 <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/1bc38dbba5ad421e255f9df976b9ade7.png' alt='Michael Chen' className='w-12 h-12 rounded-full mr-4' />
@@ -507,7 +507,7 @@ export default function Home() {
                 </i>
               </div>
               <p className='text-gray-600 mb-6 italic'>
-                "As an HR professional, I love how easy it is to create and distribute employee surveys. The reporting features save me hours of work every month."
+                {`"As an HR professional, I love how easy it is to create and distribute employee surveys. The reporting features save me hours of work every month."`}
               </p>
               <div className='flex items-center'>
                 <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/90000ea936321b61913a8e9a34a58c5b.png' alt='Jennifer Williams' className='w-12 h-12 rounded-full mr-4' />
