@@ -1,7 +1,14 @@
 import { auth } from "@/auth"
+import { prisma } from "@/prisma";
 
 export default async function AdminHeader() {
     const session = await auth();
+    const users = await prisma.user.findMany({
+        where: {
+            email: { endsWith: "prisma.io" }
+        },
+    })
+    console.log(users)
     return (
         <header
             className="bg-white shadow-sm fixed top-0 left-0 right-0 z-30 transition-all duration-300"

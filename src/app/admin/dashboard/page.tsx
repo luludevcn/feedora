@@ -3,8 +3,8 @@ import Script from "next/script";
 
 
 export default async function Page() {
-  const session = await auth();
-  console.log(session);
+  // const session = await auth();
+  // console.log(session);
   return (
     <>
       {/* <!-- 主内容 --> */}
