@@ -11,20 +11,20 @@ export default function Home() {
           <div className='flex flex-col lg:flex-row items-center'>
             <div className='lg:w-1/2 mb-12 lg:mb-0'>
               <div className='inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6'>
-                The future of feedback collection is here
+                Built for indie developers
               </div>
               <h1 className='text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight mb-6 text-shadow'>
-                Gather insights
-                <span className='bg-gradient-to-r from-primary ml-2 to-secondary bg-clip-text text-transparent'>
-                  like never before
-                </span>
-              </h1>
-              <p className='text-lg md:text-xl text-gray-600 mb-8 max-w-lg'>
-                {`Create stunning surveys, collect real-time feedback, and turn insights into action with Feedora's powerful yet intuitive platform.`}
-              </p>
+              Ship things people
+              <span className='bg-gradient-to-r from-primary ml-2 to-secondary bg-clip-text text-transparent'>
+                actually want
+              </span>
+            </h1>
+            <p className='text-lg md:text-xl text-gray-600 mb-8 max-w-lg'>
+              You&apos;re building something new — a product, a service, a community. But are you building the right thing? Feedora helps you collect and analyze feedback during the critical moments: when people join your waitlist, when they first experience what you offer, and when they decide whether to stick around.
+            </p>
               <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4'>
                 <a href='javascript:void(0);' className='bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 text-center'>
-                  Start Free Trial
+                  Start collecting feedback for free
                 </a>
                 <a href='javascript:void(0);' className='flex items-center justify-center space-x-2 bg-white hover:bg-gray-50 text-gray-800 px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-md hover:shadow-lg text-center'>
                   <i className='fas fa-play-circle text-primary'>
@@ -34,12 +34,15 @@ export default function Home() {
                   </span>
                 </a>
               </div>
+              <div className='mt-6 text-sm text-gray-500'>
+                No credit card required. Set up in 2 minutes.
+              </div>
               <div className='mt-10 flex items-center'>
                 <div className='flex -space-x-3'>
-                  <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/f904a25c3513f42c79c2991f9c0bda6a.png' alt='User' className='w-10 h-10 rounded-full border-2 border-white' />
-                  <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/f904a25c3513f42c79c2991f9c0bda6a.png' alt='User' className='w-10 h-10 rounded-full border-2 border-white' />
-                  <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/f904a25c3513f42c79c2991f9c0bda6a.png' alt='User' className='w-10 h-10 rounded-full border-2 border-white' />
-                  <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/f904a25c3513f42c79c2991f9c0bda6a.png' alt='User' className='w-10 h-10 rounded-full border-2 border-white' />
+                  <img src='/user-sarah.svg' alt='User' className='w-10 h-10 rounded-full border-2 border-white' />
+                  <img src='/user-alex.svg' alt='User' className='w-10 h-10 rounded-full border-2 border-white' />
+                  <img src='/user-jamie.svg' alt='User' className='w-10 h-10 rounded-full border-2 border-white' />
+                  <img src='/user-sarah.svg' alt='User' className='w-10 h-10 rounded-full border-2 border-white' />
                 </div>
                 <div className='ml-4'>
                   <div className='flex items-center'>
@@ -60,14 +63,14 @@ export default function Home() {
                     </span>
                   </div>
                   <p className='text-sm text-gray-500'>
-                    From 2,000+ happy customers
+                    Rated by 500+ indie builders
                   </p>
                 </div>
               </div>
             </div>
             <div className='lg:w-1/2 relative'>
               <div className='relative z-10 bg-white rounded-2xl shadow-2xl overflow-hidden transform rotate-1 hover:rotate-0 transition-transform duration-500'>
-                <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/82b3fe344415255b43b094508c7eda14.png' alt='Feedora Dashboard' className='w-full h-auto' />
+                <img src='/dashboard-preview.svg' alt='Feedora Dashboard' className='w-full h-auto' />
                 <div className='absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6'>
                   <div className='flex items-center space-x-2 text-white'>
                     <i className='fas fa-check-circle text-secondary'>
@@ -90,23 +93,23 @@ export default function Home() {
       <section className='py-16 bg-white'>
         <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
           <p className='text-center text-gray-500 text-sm font-medium mb-10'>
-            Trusted by innovative companies worldwide
+            Trusted by 500+ indie builders shipping faster
           </p>
           <div className='flex flex-wrap justify-center items-center gap-12 opacity-70'>
             <div className='text-2xl font-bold text-gray-400'>
-              Company A
+              Sarah
             </div>
             <div className='text-2xl font-bold text-gray-400'>
-              Company B
+              Alex
             </div>
             <div className='text-2xl font-bold text-gray-400'>
-              Company C
+              Jamie
             </div>
             <div className='text-2xl font-bold text-gray-400'>
-              Company D
+              Sam
             </div>
             <div className='text-2xl font-bold text-gray-400'>
-              Company E
+              Taylor
             </div>
           </div>
         </div>
@@ -116,27 +119,27 @@ export default function Home() {
         <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='text-center max-w-3xl mx-auto mb-16'>
             <div className='inline-block px-4 py-1 rounded-full bg-secondary/10 text-secondary text-sm font-medium mb-6'>
-              Powerful Features
+              Build with confidence
             </div>
             <h2 className='text-[clamp(1.8rem,4vw,3rem)] font-bold mb-6'>
-              Everything you need to collect and analyze feedback
+              Feedback for every stage of your launch
             </h2>
             <p className='text-lg text-gray-600'>
-              Our comprehensive toolset helps you create, distribute, and analyze surveys with ease, giving you the insights you need to make informed decisions.
+              From waitlist to post-launch, collect the right feedback at the right time to build products users love.
             </p>
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            {/* <!-- Feature Card 1 --> */}
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+            {/* <!-- Pre-launch Feature --> */}
             <div className='bg-white rounded-2xl p-8 shadow-md card-hover'>
               <div className='w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary text-2xl mb-6'>
-                <i className='fas fa-pencil-alt'>
+                <i className='fas fa-lightbulb'>
                 </i>
               </div>
               <h3 className='text-xl font-bold mb-3'>
-                Intuitive Survey Builder
+                Pre-launch: Validate your idea
               </h3>
               <p className='text-gray-600 mb-4'>
-                Create beautiful surveys in minutes with our drag-and-drop builder. No coding required.
+                Perfect for validating a new product, newsletter, course, or service. Ask: &quot;What&apos;s your biggest challenge right now?&quot; and &quot;If you could wave a magic wand, what would this look like?&quot;
               </p>
               <a href='javascript:void(0);' className='inline-flex items-center text-primary font-medium hover:underline'>
                 Learn more
@@ -144,17 +147,35 @@ export default function Home() {
                 </i>
               </a>
             </div>
-            {/* <!-- Feature Card 2 --> */}
+            {/* <!-- During launch Feature --> */}
             <div className='bg-white rounded-2xl p-8 shadow-md card-hover'>
               <div className='w-14 h-14 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary text-2xl mb-6'>
+                <i className='fas fa-rocket'>
+                </i>
+              </div>
+              <h3 className='text-xl font-bold mb-3'>
+                During launch: Listen to early users
+              </h3>
+              <p className='text-gray-600 mb-4'>
+                Get notified when someone submits feedback. See patterns emerge in real-time. One indie creator collected 2,500+ responses from a 6,000-person waitlist — that&apos;s a 30%+ response rate.
+              </p>
+              <a href='javascript:void(0);' className='inline-flex items-center text-primary font-medium hover:underline'>
+                Learn more
+                <i className='fas fa-arrow-right ml-2 text-sm'>
+                </i>
+              </a>
+            </div>
+            {/* <!-- Post-launch Feature --> */}
+            <div className='bg-white rounded-2xl p-8 shadow-md card-hover'>
+              <div className='w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center text-accent text-2xl mb-6'>
                 <i className='fas fa-chart-line'>
                 </i>
               </div>
               <h3 className='text-xl font-bold mb-3'>
-                Real-time Analytics
+                Post-launch: Let users shape your roadmap
               </h3>
               <p className='text-gray-600 mb-4'>
-                Track responses as they come in with our live dashboard and powerful visualization tools.
+                Feedback scattered across social media, email, and DMs? Bring it into one place. Let your community vote on what to improve next, and communicate what&apos;s coming.
               </p>
               <a href='javascript:void(0);' className='inline-flex items-center text-primary font-medium hover:underline'>
                 Learn more
@@ -162,35 +183,17 @@ export default function Home() {
                 </i>
               </a>
             </div>
-            {/* <!-- Feature Card 3 --> */}
-            <div className='bg-white rounded-2xl p-8 shadow-md card-hover'>
-              <div className='w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center text-accent text-2xl mb-6'>
-                <i className='fas fa-users'>
-                </i>
-              </div>
-              <h3 className='text-xl font-bold mb-3'>
-                Audience Targeting
-              </h3>
-              <p className='text-gray-600 mb-4'>
-                Segment your audience and target specific groups to get the most relevant feedback.
-              </p>
-              <a href='javascript:void(0);' className='inline-flex items-center text-primary font-medium hover:underline'>
-                Learn more
-                <i className='fas fa-arrow-right ml-2 text-sm'>
-                </i>
-              </a>
-            </div>
-            {/* <!-- Feature Card 4 --> */}
+            {/* <!-- Data Ownership Feature --> */}
             <div className='bg-white rounded-2xl p-8 shadow-md card-hover'>
               <div className='w-14 h-14 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600 text-2xl mb-6'>
-                <i className='fas fa-bell'>
+                <i className='fas fa-lock'>
                 </i>
               </div>
               <h3 className='text-xl font-bold mb-3'>
-                Smart Notifications
+                Your data stays yours
               </h3>
               <p className='text-gray-600 mb-4'>
-                Get instant alerts when new responses come in or when survey goals are met.
+                Export your data anytime. No lock-in. Your feedback belongs to you, and we respect that.
               </p>
               <a href='javascript:void(0);' className='inline-flex items-center text-primary font-medium hover:underline'>
                 Learn more
@@ -198,17 +201,17 @@ export default function Home() {
                 </i>
               </a>
             </div>
-            {/* <!-- Feature Card 5 --> */}
+            {/* <!-- Easy Setup Feature --> */}
             <div className='bg-white rounded-2xl p-8 shadow-md card-hover'>
               <div className='w-14 h-14 rounded-xl bg-blue-100 flex items-center justify-center text-blue-600 text-2xl mb-6'>
-                <i className='fas fa-file-export'>
+                <i className='fas fa-code'>
                 </i>
               </div>
               <h3 className='text-xl font-bold mb-3'>
-                Advanced Reporting
+                Simple embed code
               </h3>
               <p className='text-gray-600 mb-4'>
-                Generate detailed reports and export data in multiple formats for further analysis.
+                Add feedback forms to your website with just a few lines of code. No complicated setup required.
               </p>
               <a href='javascript:void(0);' className='inline-flex items-center text-primary font-medium hover:underline'>
                 Learn more
@@ -216,17 +219,17 @@ export default function Home() {
                 </i>
               </a>
             </div>
-            {/* <!-- Feature Card 6 --> */}
+            {/* <!-- Indie-friendly Feature --> */}
             <div className='bg-white rounded-2xl p-8 shadow-md card-hover'>
               <div className='w-14 h-14 rounded-xl bg-green-100 flex items-center justify-center text-green-600 text-2xl mb-6'>
-                <i className='fas fa-shield-alt'>
+                <i className='fas fa-heart'>
                 </i>
               </div>
               <h3 className='text-xl font-bold mb-3'>
-                Enterprise Security
+                Built by an indie dev
               </h3>
               <p className='text-gray-600 mb-4'>
-                Rest easy knowing your data is protected with enterprise-grade security and compliance.
+                Made for indie developers, by an indie developer. We understand the challenges you face and built Feedora to help you succeed.
               </p>
               <a href='javascript:void(0);' className='inline-flex items-center text-primary font-medium hover:underline'>
                 Learn more
@@ -244,7 +247,7 @@ export default function Home() {
             <div className='lg:w-1/2 order-2 lg:order-1'>
               <div className='relative'>
                 <div className='relative z-10 rounded-2xl overflow-hidden shadow-2xl transform -rotate-2 hover:rotate-0 transition-transform duration-500'>
-                  <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/2c74c05096948e6399161272a02dd916.png' alt='Feedora Dashboard' className='w-full h-auto' />
+                  <img src='/dashboard-preview.svg' alt='Feedora Dashboard' className='w-full h-auto' />
                 </div>
                 <div className='absolute -top-10 -right-10 w-40 h-40 bg-primary/20 rounded-full blur-2xl'>
                 </div>
@@ -270,10 +273,10 @@ export default function Home() {
                   </div>
                   <div >
                     <h3 className='text-lg font-semibold mb-1'>
-                      Advanced Visualization
+                      Spot patterns in minutes, not hours
                     </h3>
                     <p className='text-gray-600'>
-                      Interactive charts and graphs that make complex data easy to understand.
+                      Interactive charts and graphs that make complex feedback data easy to understand at a glance.
                     </p>
                   </div>
                 </div>
@@ -284,7 +287,7 @@ export default function Home() {
                   </div>
                   <div >
                     <h3 className='text-lg font-semibold mb-1'>
-                      Sentiment Analysis
+                      Know if users are excited or frustrated
                     </h3>
                     <p className='text-gray-600'>
                       Automatically detect positive, negative, and neutral responses in open-ended answers.
@@ -298,10 +301,10 @@ export default function Home() {
                   </div>
                   <div >
                     <h3 className='text-lg font-semibold mb-1'>
-                      Custom Reports
+                      Share insights with your team (or just yourself)
                     </h3>
                     <p className='text-gray-600'>
-                      Create and share custom reports with stakeholders in multiple formats.
+                      Create and share custom reports in multiple formats, perfect for solo devs or small teams.
                     </p>
                   </div>
                 </div>
@@ -320,85 +323,85 @@ export default function Home() {
         <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='text-center max-w-3xl mx-auto mb-16'>
             <div className='inline-block px-4 py-1 rounded-full bg-purple-100 text-purple-600 text-sm font-medium mb-6'>
-              Ready-to-use templates
+              Launch-ready templates
             </div>
             <h2 className='text-[clamp(2rem,4vw,3rem)] font-bold mb-6'>
-              Start fast with professional templates
+              Templates for every launch stage
             </h2>
             <p className='text-lg text-gray-600'>
-              Choose from over 100 professionally designed templates for every use case, or start from scratch.
+              Choose from our curated templates designed specifically for indie developers launching new products.
             </p>
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            {/* <!-- Template Card 1 --> */}
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+            {/* <!-- Pre-launch Waitlist Template --> */}
             <div className='bg-white rounded-2xl overflow-hidden shadow-md card-hover'>
               <div className='h-48 overflow-hidden'>
-                <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/75a1fea963c9d590da54dce38f54fa75.png' alt='Customer Satisfaction Template' className='w-full h-full object-cover hover:scale-105 transition-transform duration-500' />
+                <img src='/prelaunch-template.svg' alt='Pre-launch Waitlist Template' className='w-full h-full object-cover hover:scale-105 transition-transform duration-500' />
               </div>
               <div className='p-6'>
                 <div className='flex justify-between items-center mb-3'>
                   <span className='text-sm font-medium text-gray-500'>
-                    Customer Feedback
+                    Pre-launch
                   </span>
                   <span className='px-3 py-1 bg-green-100 text-green-600 text-xs rounded-full'>
                     Popular
                   </span>
                 </div>
                 <h3 className='text-xl font-bold mb-2'>
-                  Customer Satisfaction
+                  Pre-launch Waitlist Template
                 </h3>
                 <p className='text-gray-600 mb-4'>
-                  Measure customer satisfaction and identify areas for improvement.
+                  Perfect for validating a new product, newsletter, course, or service. Ask: &quot;What&apos;s your biggest challenge right now?&quot; and &quot;If you could wave a magic wand, what would this look like?&quot;
                 </p>
                 <a href='javascript:void(0);' className='block text-center bg-gray-50 hover:bg-gray-100 text-gray-800 py-3 rounded-xl font-medium transition-colors'>
                   Use Template
                 </a>
               </div>
             </div>
-            {/* <!-- Template Card 2 --> */}
+            {/* <!-- Post-launch Feedback Template --> */}
             <div className='bg-white rounded-2xl overflow-hidden shadow-md card-hover'>
               <div className='h-48 overflow-hidden'>
-                <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/dbfca1a96c35c9e9c4bcf6c916dc81b1.png' alt='Employee Engagement Template' className='w-full h-full object-cover hover:scale-105 transition-transform duration-500' />
+                <img src='/postlaunch-template.svg' alt='Post-launch Feedback Template' className='w-full h-full object-cover hover:scale-105 transition-transform duration-500' />
               </div>
               <div className='p-6'>
                 <div className='flex justify-between items-center mb-3'>
                   <span className='text-sm font-medium text-gray-500'>
-                    HR & Team
+                    Post-launch
                   </span>
                   <span className='px-3 py-1 bg-blue-100 text-blue-600 text-xs rounded-full'>
                     New
                   </span>
                 </div>
                 <h3 className='text-xl font-bold mb-2'>
-                  Employee Engagement
+                  Post-launch Feedback Template
                 </h3>
                 <p className='text-gray-600 mb-4'>
-                  Understand employee satisfaction and boost team engagement.
+                  Ideal for gathering first impressions after launch — whether it&apos;s a SaaS, a book, a podcast, or a physical product. Ask: &quot;What was your first impression?&quot; and &quot;What&apos;s one thing we could improve?&quot;
                 </p>
                 <a href='javascript:void(0);' className='block text-center bg-gray-50 hover:bg-gray-100 text-gray-800 py-3 rounded-xl font-medium transition-colors'>
                   Use Template
                 </a>
               </div>
             </div>
-            {/* <!-- Template Card 3 --> */}
+            {/* <!-- Feature Request Board --> */}
             <div className='bg-white rounded-2xl overflow-hidden shadow-md card-hover'>
               <div className='h-48 overflow-hidden'>
-                <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/e5c6539c45189e17ea13936f40ebc2ee.png' alt='Product Feedback Template' className='w-full h-full object-cover hover:scale-105 transition-transform duration-500' />
+                <img src='/feature-request-board.svg' alt='Feature Request Board' className='w-full h-full object-cover hover:scale-105 transition-transform duration-500' />
               </div>
               <div className='p-6'>
                 <div className='flex justify-between items-center mb-3'>
                   <span className='text-sm font-medium text-gray-500'>
-                    Product Development
+                    Ongoing
                   </span>
                   <span className='px-3 py-1 bg-gray-100 text-gray-600 text-xs rounded-full'>
                     Pro
                   </span>
                 </div>
                 <h3 className='text-xl font-bold mb-2'>
-                  Product Feedback
+                  Feature Request Board
                 </h3>
                 <p className='text-gray-600 mb-4'>
-                  Gather insights to improve your product and prioritize features.
+                  Let your customers, readers, or members submit and vote on ideas. See what&apos;s most wanted and share what you&apos;re working on.
                 </p>
                 <a href='javascript:void(0);' className='block text-center bg-gray-50 hover:bg-gray-100 text-gray-800 py-3 rounded-xl font-medium transition-colors'>
                   Use Template
@@ -406,14 +409,28 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='text-center mt-12'>
-            <a href='javascript:void(0);' className='inline-flex items-center justify-center space-x-2 bg-white hover:bg-gray-50 text-gray-800 px-8 py-3 rounded-xl font-semibold transition-all shadow-md hover:shadow-lg'>
-              <span >
-                View All Templates
-              </span>
-              <i className='fas fa-arrow-right'>
-              </i>
-            </a>
+        </div>
+      </section>
+      {/* <!-- Product Preview Section --> */}
+      <section className='py-20 bg-white'>
+        <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
+          <div className='text-center max-w-3xl mx-auto mb-16'>
+            <div className='inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6'>
+              How it works
+            </div>
+            <h2 className='text-[clamp(2rem,4vw,3rem)] font-bold mb-6'>
+              See Feedora in action
+            </h2>
+            <p className='text-lg text-gray-600'>
+              A quick look at how Feedora helps you collect and analyze feedback throughout your product launch journey.
+            </p>
+          </div>
+          <div className='relative'>
+            <div className='bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-100'>
+              <img src='/dashboard-preview.svg' alt='Feedora Dashboard' className='w-full h-auto' />
+            </div>
+            <div className='absolute -bottom-6 -right-6 w-64 h-64 bg-primary/20 rounded-full blur-3xl'></div>
+            <div className='absolute -top-6 -left-6 w-64 h-64 bg-secondary/20 rounded-full blur-3xl'></div>
           </div>
         </div>
       </section>
@@ -422,13 +439,13 @@ export default function Home() {
         <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='text-center max-w-3xl mx-auto mb-16'>
             <div className='inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6'>
-              Success stories
+              Indie dev stories
             </div>
             <h2 className='text-[clamp(2rem,4vw,3rem)] font-bold mb-6'>
-              What our customers are saying
+              What indie developers are saying
             </h2>
             <p className='text-lg text-gray-600'>
-              Join thousands of companies using Feedora to transform feedback into action.
+              Join 500+ indie developers using Feedora to ship better products faster.
             </p>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
@@ -447,16 +464,16 @@ export default function Home() {
                 </i>
               </div>
               <p className='text-gray-600 mb-6 italic'>
-                {`"Feedora has completely transformed how we collect and act on customer feedback. The analytics tools give us insights we never had before."`}
+                {`"Feedora helped me validate my SaaS idea before writing a single line of code. The waitlist feedback gave me clear direction on what features to build first."`}
               </p>
               <div className='flex items-center'>
-                <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/cca584a063cbe29e864107221890b540.png' alt='Sarah Johnson' className='w-12 h-12 rounded-full mr-4' />
+                <img src='/user-sarah.svg' alt='Sarah' className='w-12 h-12 rounded-full mr-4' />
                 <div >
                   <h4 className='font-bold'>
-                    Sarah Johnson
+                    Sarah
                   </h4>
                   <p className='text-sm text-gray-500'>
-                    Product Manager, TechCorp
+                    Building her first SaaS
                   </p>
                 </div>
               </div>
@@ -476,16 +493,16 @@ export default function Home() {
                 </i>
               </div>
               <p className='text-gray-600 mb-6 italic'>
-                {`"The survey builder is incredibly intuitive, and we've seen a 40% increase in response rates since switching to Feedora. Highly recommended!"`}
+                {`"I collected 2,500+ responses from my 6,000-person waitlist using Feedora. That's a 30%+ response rate! The insights helped me prioritize features for launch."`}
               </p>
               <div className='flex items-center'>
-                <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/1bc38dbba5ad421e255f9df976b9ade7.png' alt='Michael Chen' className='w-12 h-12 rounded-full mr-4' />
+                <img src='/user-alex.svg' alt='Alex' className='w-12 h-12 rounded-full mr-4' />
                 <div >
                   <h4 className='font-bold'>
-                    Michael Chen
+                    Alex
                   </h4>
                   <p className='text-sm text-gray-500'>
-                    Marketing Director, RetailCo
+                    Indie game developer
                   </p>
                 </div>
               </div>
@@ -505,20 +522,70 @@ export default function Home() {
                 </i>
               </div>
               <p className='text-gray-600 mb-6 italic'>
-                {`"As an HR professional, I love how easy it is to create and distribute employee surveys. The reporting features save me hours of work every month."`}
+                {`"The feature request board has been a game-changer. Instead of tracking requests across Discord and Twitter, everything is in one place with user votes."`}
               </p>
               <div className='flex items-center'>
-                <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/90000ea936321b61913a8e9a34a58c5b.png' alt='Jennifer Williams' className='w-12 h-12 rounded-full mr-4' />
+                <img src='/user-jamie.svg' alt='Jamie' className='w-12 h-12 rounded-full mr-4' />
                 <div >
                   <h4 className='font-bold'>
-                    Jennifer Williams
+                    Jamie
                   </h4>
                   <p className='text-sm text-gray-500'>
-                    HR Director, HealthPlus
+                    Full-stack developer
                   </p>
                 </div>
               </div>
             </div>
+            {/* <!-- Testimonial 4 --> */}
+            <div className='bg-gray-50 rounded-2xl p-8 shadow-md'>
+              <div className='flex text-yellow-400 mb-4'>
+                <i className='fas fa-star'>
+                </i>
+                <i className='fas fa-star'>
+                </i>
+                <i className='fas fa-star'>
+                </i>
+                <i className='fas fa-star'>
+                </i>
+                <i className='fas fa-star'>
+                </i>
+              </div>
+              <p className='text-gray-600 mb-6 italic'>
+                {`"I used Feedora to collect feedback from my newsletter subscribers before launching a paid tier. The responses told me exactly what content they'd pay for — I hit my revenue goal in the first week."`}
+              </p>
+              <div className='flex items-center'>
+                <img src='/user-priya.svg' alt='Priya' className='w-12 h-12 rounded-full mr-4' />
+                <div >
+                  <h4 className='font-bold'>
+                    Priya
+                  </h4>
+                  <p className='text-sm text-gray-500'>
+                    Newsletter creator
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <!-- Light CTA Section --> */}
+      <section className='py-20 bg-gray-50'>
+        <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
+          <div className='max-w-3xl mx-auto text-center'>
+            <h2 className='text-[clamp(2rem,4vw,3rem)] font-bold mb-6'>
+              Start shipping with confidence
+            </h2>
+            <p className='text-lg text-gray-600 mb-10'>
+              Join 500+ indie builders who are creating things people actually want.
+            </p>
+            <a href='javascript:void(0);' className='inline-flex items-center justify-center bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 text-center'>
+              Start collecting feedback for free
+              <i className='fas fa-arrow-right ml-2 text-sm'>
+              </i>
+            </a>
+            <p className='text-gray-500 mt-6 text-sm'>
+              No credit card required. 30-day free trial. Set up in 2 minutes.
+            </p>
           </div>
         </div>
       </section>
@@ -531,25 +598,25 @@ export default function Home() {
         <div className='container mx-auto px-4 sm:px-6 lg:px-8 relative z-10'>
           <div className='max-w-3xl mx-auto text-center'>
             <h2 className='text-[clamp(2rem,5vw,3.5rem)] font-bold text-white mb-6 leading-tight'>
-              Ready to transform your feedback process?
+              Ready to launch with confidence?
             </h2>
             <p className='text-xl text-white/80 mb-10'>
-              Join thousands of companies using Feedora to gather insights and make better decisions.
+              Join 500+ indie developers using Feedora to collect feedback and build products users love.
             </p>
             <div className='flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4'>
               <a href='javascript:void(0);' className='bg-white hover:bg-gray-100 text-primary px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 text-center'>
-                Start Free Trial
+                Start collecting feedback for free
               </a>
               <a href='javascript:void(0);' className='flex items-center justify-center space-x-2 bg-transparent hover:bg-white/10 text-white border border-white/30 px-8 py-4 rounded-xl font-semibold text-lg transition-all text-center'>
-                <i className='fas fa-calendar-alt'>
+                <i className='fas fa-play-circle'>
                 </i>
                 <span >
-                  Schedule Demo
+                  Watch Demo
                 </span>
               </a>
             </div>
             <p className='text-white/60 mt-6 text-sm'>
-              No credit card required. 14-day free trial.
+              No credit card required. 30-day free trial. Set up in 2 minutes.
             </p>
           </div>
         </div>

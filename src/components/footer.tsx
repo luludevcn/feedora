@@ -14,7 +14,7 @@ export default function Footer() {
                             </span>
                         </div>
                         <p className='text-gray-400 mb-6 max-w-md'>
-                            {` Gather insights like never before with Feedora's powerful feedback collection and analysis platform.`}
+                            {`Help indie builders collect and analyze early user feedback before and after launch. Built for builders, by a builder.`}
                         </p>
                         <div className='flex space-x-4'>
                             <a href='javascript:void(0);' className='w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors'>
